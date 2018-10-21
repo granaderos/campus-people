@@ -1,0 +1,66 @@
+body {
+    background: black;
+    font-family: arial, sans-serif;
+}
+
+.light-text {
+    color: cornflowerblue;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 5;
+}
+
+table {
+    margin: auto;
+}
+
+table tr {
+    padding: 8px !important;
+    border-bottom: 1px solid darkblue !important;
+}
+
+table tr td {
+
+    padding: 8px !important;
+    border-bottom: 1px solid darkblue !important;
+}
+
+table tr:hover {
+    background: mediumblue;
+    cursor: pointer;
+}
+
+input[type="text"], input[type="password"], select {
+    background: #000000;
+    color: darkblue;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border: 2px solid #c0c0c0;
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: italic;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #000000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none !important;
+    box-decoration-break: slice;
+}
+
+.component-center {
+    text-align: center;
+    margint: auto;
+}
+
+.container {
+    margin-top: 25px;
+}
